@@ -159,7 +159,7 @@ public class Questions extends Activity {
         questionList.add(ques);
         ques = new Question("54", "54. Had sex?", false);
         questionList.add(ques);
-        ques = new Question("55", "55. Have an unusual fetish?", false);
+        ques = new Question("55", "55. Had sex on Arthur's Seat?", false);
         questionList.add(ques);
         ques = new Question("56", "56. Had BDSM sex?", false);
         questionList.add(ques);
