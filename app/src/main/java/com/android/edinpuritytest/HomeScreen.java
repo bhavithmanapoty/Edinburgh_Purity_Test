@@ -69,7 +69,7 @@ public class HomeScreen extends Activity {
     }
     private void createIntestitialAd(AdRequest adRequest)
     {
-        InterstitialAd.load(this,"ca-app-pub-6105353816616318/7961309321", adRequest, new InterstitialAdLoadCallback() {
+        InterstitialAd.load(this,"ca-app-pub-XXXXXXXX16616318/7961309321", adRequest, new InterstitialAdLoadCallback() {
             @Override
             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
                 // The mInterstitialAd reference will be null until
