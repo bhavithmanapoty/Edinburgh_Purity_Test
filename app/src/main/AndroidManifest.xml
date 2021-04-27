@@ -22,9 +22,10 @@
         </activity>
 
         <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <!-- My AdMob ID: pub-6105353816616318 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>//Replace with own ID after testing and before publication
+            android:value="pub-6105353816616318"/>//Replace with own ID after testing and before publication
 
     </application>
 </manifest>

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/edicontactus">
+    android:background="@drawable/edicontactus"
+    tools:ignore="ExtraText">
 
     <TextView
         android:id="@+id/textView"
@@ -19,12 +20,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.642" />
 
+    //Test Ad ID: ca-app-pub-3940256099942544/6300978111
+    //My Ad ID: ca-app-pub-6105353816616318/5006282426
     <com.google.android.gms.ads.AdView
         android:id="@+id/topAdView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-XXXXXX353816616318/5006282426"
+        app:adUnitId="ca-app-pub-6105353816616318/5006282426"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,6 +36,8 @@
 
     </com.google.android.gms.ads.AdView>
 
+    //Test Ad ID: ca-app-pub-3940256099942544/6300978111
+    //My Ad ID: ca-app-pub-6105353816616318/8562384053
     <com.google.android.gms.ads.AdView
         android:id="@+id/bottomAdView"
         android:layout_width="wrap_content"
@@ -40,7 +45,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-XXXXX353816616318/8562384053"
+        app:adUnitId="ca-app-pub-6105353816616318/8562384053"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/edihomescreen">
+    android:background="@drawable/edihomescreennew">
 
     <Button
         android:id="@+id/beginBtn"
@@ -30,12 +30,14 @@
         app:layout_constraintTop_toBottomOf="@+id/beginBtn"
         app:layout_constraintVertical_bias="0.225" />
 
+    //Test Ad ID: ca-app-pub-3940256099942544/6300978111
+    //My Ad ID: ca-app-pub-6105353816616318/8587995283
     <com.google.android.gms.ads.AdView
         android:id="@+id/bottomAdView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-XXXXXX53816616318/8587995283"
+        app:adUnitId="ca-app-pub-6105353816616318/8587995283"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
