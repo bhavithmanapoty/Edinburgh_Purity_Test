@@ -30,6 +30,8 @@
         app:layout_constraintTop_toBottomOf="@+id/beginBtn"
         app:layout_constraintVertical_bias="0.225" />
 
+    <!--Test Ad ID: ca-app-pub-3940256099942544/6300978111-->
+    <!--My Ad ID: ca-app-pub-6105353816616318/8587995283-->
     <com.google.android.gms.ads.AdView
         android:id="@+id/bottomAdView"
         android:layout_width="wrap_content"
