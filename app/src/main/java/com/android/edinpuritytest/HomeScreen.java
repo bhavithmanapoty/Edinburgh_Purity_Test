@@ -33,17 +33,17 @@ public class HomeScreen extends Activity {
         mAdView.loadAd(adRequest);
 
         beginBtn = (Button) findViewById(R.id.beginBtn);
-            beginBtn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if (mInterstitialAd != null) {
-                        mInterstitialAd.show(HomeScreen.this);
-                    } else {
-                        Log.d("TAG", "The interstitial ad wasn't ready yet.");
-                        openQuestionsActivity();
-                    }
+        beginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (mInterstitialAd != null) {
+                    mInterstitialAd.show(HomeScreen.this);
+                } else {
+                    Log.d("TAG", "The interstitial ad wasn't ready yet.");
+                    openQuestionsActivity();
                 }
-            });
+            }
+        });
 
         contactBtn = (Button) findViewById(R.id.contactBtn);
         contactBtn.setOnClickListener(new View.OnClickListener() {
@@ -69,8 +69,6 @@ public class HomeScreen extends Activity {
     }
     private void createIntestitialAd(AdRequest adRequest)
     {
-        //Test Ad ID : ca-app-pub-3940256099942544/1033173712
-        //My Ad ID: ca-app-pub-6105353816616318/7961309321
         InterstitialAd.load(this,"ca-app-pub-6105353816616318/7961309321", adRequest, new InterstitialAdLoadCallback() {
             @Override
             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {

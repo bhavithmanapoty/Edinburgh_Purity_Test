@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/edicontactus"
-    tools:ignore="ExtraText">
+    android:background="@drawable/edicontactus">
 
     <TextView
         android:id="@+id/textView"
@@ -20,8 +19,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.642" />
 
-    //Test Ad ID: ca-app-pub-3940256099942544/6300978111
-    //My Ad ID: ca-app-pub-6105353816616318/5006282426
     <com.google.android.gms.ads.AdView
         android:id="@+id/topAdView"
         android:layout_width="wrap_content"
@@ -36,8 +33,6 @@
 
     </com.google.android.gms.ads.AdView>
 
-    //Test Ad ID: ca-app-pub-3940256099942544/6300978111
-    //My Ad ID: ca-app-pub-6105353816616318/8562384053
     <com.google.android.gms.ads.AdView
         android:id="@+id/bottomAdView"
         android:layout_width="wrap_content"

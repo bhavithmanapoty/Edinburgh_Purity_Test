@@ -96,9 +96,7 @@ public class ScoreScreen extends Activity {
     }
     private void createIntestitialAd(AdRequest adRequest)
     {
-        //Test Ad ID : ca-app-pub-3940256099942544/1033173712
-        //My Ad ID: ca-app-pub-6105353816616318/7083341922
-        InterstitialAd.load(this,"\n" + "ca-app-pub-6105353816616318/7083341922", adRequest, new InterstitialAdLoadCallback() {
+        InterstitialAd.load(this,"ca-app-pub-6105353816616318/7083341922", adRequest, new InterstitialAdLoadCallback() {
             @Override
             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
                 // The mInterstitialAd reference will be null until
